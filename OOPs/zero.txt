@@ -1,0 +1,4 @@
+Original data
+34 2 9 4 98 
+Sorted data
+2 4 9 34 98 
