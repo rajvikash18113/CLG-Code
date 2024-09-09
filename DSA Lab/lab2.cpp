@@ -1,3 +1,6 @@
+/*Write a program to delete an element from a given whose value is given or 
+whose position is given.*/
+
 #include <iostream>
 using namespace std;
 
