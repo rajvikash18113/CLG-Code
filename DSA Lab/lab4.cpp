@@ -1,4 +1,4 @@
-/* Write a program to find the location of a given element using Binary Search. */
+// Write a program to find the location of a given element using Binary Search.
 
 #include <iostream>
 using namespace std;
