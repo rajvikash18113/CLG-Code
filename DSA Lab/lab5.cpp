@@ -1,5 +1,5 @@
 /*Write a program to implement push and pop operations on a stack using linear 
-array*/
+  array*/
 
 #include <iostream>
 using namespace std;
