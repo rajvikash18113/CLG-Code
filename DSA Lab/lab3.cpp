@@ -1,3 +1,5 @@
+/*Write a program to find the location of a given element using Linear Search*/
+
 #include <iostream>
 using namespace std;
 
