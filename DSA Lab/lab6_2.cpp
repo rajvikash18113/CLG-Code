@@ -1,3 +1,5 @@
+// Write a program to convert an infix expression to a postfix expression using stacks.
+
 #include <iostream>
 #include <stack>
 using namespace std;
