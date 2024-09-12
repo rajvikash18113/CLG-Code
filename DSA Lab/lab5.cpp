@@ -1,10 +1,11 @@
-/*Write a program to implement push and pop operations on a stack using linear 
+/*Write a program to implement push and pop operations on a stack using linear
   array*/
 
 #include <iostream>
 using namespace std;
 
-class STACKS {
+class STACKS
+{
 private:
     int stack[10];
     const int MAX = 10; // Constant for maximum size
@@ -13,8 +14,10 @@ private:
 public:
     STACKS() : top(-1) {} // Constructor to initialize top
 
-    void push(int val) {
-        if (top >= MAX - 1) {
+    void push(int val)
+    {
+        if (top >= MAX - 1)
+        {
             cout << "Stack is full\n";
             return;
         }
@@ -22,8 +25,10 @@ public:
         cout << val << " pushed into stack!\n";
     }
 
-    int pop() {
-        if (top == -1) {
+    int pop()
+    {
+        if (top == -1)
+        {
             cout << "Stack Underflow\n";
             return -1;
         }
@@ -32,7 +37,8 @@ public:
     }
 };
 
-int main() {
+int main()
+{
     STACKS st;
 
     st.push(3);
