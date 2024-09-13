@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-    int arr[100] = {1, 2, 3, 4, 5}; // Initial array
-    int n = 5;                      // Current size of the array
+    int arr[100] = {1, 2, 3, 4, 5};  // Initial array
+    int n = 5;                       // Current size of the array
     int value, position;
 
     // Delete element by value
