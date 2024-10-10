@@ -1,6 +1,9 @@
 /*
- AIM - Write a menu driven program to perform following Deletion operations in a single
-linked list:
+ AIM -Write a menu driven program to perform following deletion operations
+in a single linked list:
+i. Deletion at beginning 
+ii. Deletion at end
+iii. Deletion after a given node
 */
 
 #include <iostream>
