@@ -1,6 +1,10 @@
 /*
-AIM - Write a menu driven program to perform following insertion operations in a single 
-linked list:
+AIM -Write a menu driven program to perform following insertion
+operations in a single linked list:
+i. Insertion at beginning 
+ii. Insertion at end
+iii. Insertion after a given node 
+iv. Traversing a linked list
 */
 
 #include<iostream> 
