@@ -38,12 +38,12 @@ struct Queue
         // If the queue is empty, set both front and rear to the new node
         if (rear == NULL)
         {
-            front = rear = temp; // Assign the new node to both front and rear
+            front = rear = temp;  // Assign the new node to both front and rear
             return;              // Exit the function
         }
 
         // If queue is not empty, link the new node at the end of the queue
-        rear->next = temp; // Set the next of rear to the new node
+        rear->next = temp;  // Set the next of rear to the new node
         rear = temp;       // Move the rear pointer to the new node
     }
 
