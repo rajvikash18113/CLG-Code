@@ -74,14 +74,14 @@ int main()
 {
     Queue q; // Create an empty queue
 
-    q.enQueue(10); // Enqueue 10 to the queue
+    q.enQueue(10);  // Enqueue 10 to the queue
     q.enQueue(20); // Enqueue 20 to the queue
 
-    q.deQueue(); // Dequeue (remove) an element from the queue
+    q.deQueue();  // Dequeue (remove) an element from the queue
     q.deQueue(); // Dequeue another element from the queue
 
-    q.enQueue(30); // Enqueue 30 to the queue
-    q.enQueue(40); // Enqueue 40 to the queue
+    q.enQueue(30);   // Enqueue 30 to the queue
+    q.enQueue(40);  // Enqueue 40 to the queue
     q.enQueue(50); // Enqueue 50 to the queue
 
     q.deQueue(); // Dequeue an element from the queue
