@@ -89,14 +89,14 @@ int main() {
     push(55);
     push(66);
 
-    cout << "\nStack elements after PUSH operation: ";
+    cout << "\nStack elements after PUSH operation: " << endl;
     display();
 
     // Pop elements from the stack
     pop();
     pop();
 
-    cout << "\nStack elements after POP operation: ";
+    cout << "\nStack elements after POP operation: " << endl;
     display();
 
     return 0;
