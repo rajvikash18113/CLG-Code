@@ -3,39 +3,50 @@ using namespace std;
 
 int queue[20], n, front = -1, rear = -1;
 
-void Insert(int val) {
+void Insert(int val)
+{
     if (rear == n - 1)
         cout << "Queue Overflow" << endl;
-    else {
-        if (front == -1) front = 0;
+    else
+    {
+        if (front == -1)
+            front = 0;
         rear++;
         queue[rear] = val;
     }
 }
 
-void Delete() {
-    if (front == -1 || front > rear) {
+void Delete()
+{
+    if (front == -1 || front > rear)
+    {
         cout << "\nQueue is empty\n";
         return;
-    } else {
+    }
+    else
+    {
         cout << "Deleted element: " << queue[front] << endl;
         front++;
     }
 }
 
-void Display() {
-    if (front == -1 || front > rear) {
+void Display()
+{
+    if (front == -1 || front > rear)
+    {
         cout << "\nQueue is Empty\n";
         return;
     }
     cout << "Queue elements are: ";
-    for (int i = front; i <= rear; i++) {
+    for (int i = front; i <= rear; i++)
+    {
         cout << queue[i] << "\t";
     }
     cout << endl;
 }
 
-int main(void) {
+int main(void)
+{
     cout << "\nEnter size of queue: ";
     cin >> n;
 
