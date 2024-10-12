@@ -123,12 +123,12 @@ public:
         node *previous = NULL;
 
         // If the position is 1, delete the first node
-        if (pos == 1)
-        {
-            head = head->next;
-            delete current;
-            return;
-        }
+        // if (pos == 1)
+        // {
+        //     head = head->next;
+        //     delete current;
+        //     return;
+        // }
 
         // Traverse to the node at the specified position
         for (int i = 1; i < pos; i++)
