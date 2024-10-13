@@ -6,21 +6,24 @@ AIM -  Write a program to implement push and pop operations on a stack using lin
 using namespace std;
 
 // Declare linked list node
-struct Node {
+struct Node
+{
     int data;
-    struct Node* link;
+    struct Node *link;
 };
 
 // Initialize the top of the stack
-struct Node* top = NULL;
+struct Node *top = NULL;
 
 // Utility function to add an element to the stack
-void push(int data) {
+void push(int data)
+{
     // Create new node temp and allocate memory
-    struct Node* temp = new Node();
+    struct Node *temp = new Node();
 
     // Check if stack (heap) is full
-    if (!temp) {
+    if (!temp)
+    {
         cout << "\nHeap Overflow";
         exit(1);
     }
@@ -36,15 +39,18 @@ void push(int data) {
 }
 
 // Utility function to remove an element from the stack
-void pop() {
-    struct Node* temp;
+void pop()
+{
+    struct Node *temp;
 
     // Check for stack underflow
-    if (top == NULL) {
+    if (top == NULL)
+    {
         cout << "\nStack Underflow" << endl;
         exit(1);
     }
-    else {
+    else
+    {
         // Assign top to temp
         temp = top;
 
@@ -60,17 +66,21 @@ void pop() {
 }
 
 // Utility function to display stack elements
-void display() {
-    struct Node* temp;
+void display()
+{
+    struct Node *temp;
 
     // Check for stack underflow
-    if (top == NULL) {
+    if (top == NULL)
+    {
         cout << "\nStack Underflow";
         exit(1);
     }
-    else {
+    else
+    {
         temp = top;
-        while (temp != NULL) {
+        while (temp != NULL)
+        {
             // Print node data
             cout << temp->data << " ";
             // Move to the next node
@@ -80,7 +90,8 @@ void display() {
     }
 }
 
-int main() {
+int main()
+{
     // Push elements onto the stack
     push(11);
     push(22);
