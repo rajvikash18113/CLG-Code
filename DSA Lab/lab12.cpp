@@ -1,7 +1,7 @@
 /*
  AIM -Write a menu driven program to perform following deletion operations
 in a single linked list:
-i. Deletion at beginning 
+i. Deletion at beginning
 ii. Deletion at end
 iii. Deletion after a given node
 */
