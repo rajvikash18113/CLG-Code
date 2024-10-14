@@ -38,12 +38,12 @@ struct Queue
         // If the queue is empty, set both front and rear to the new node
         if (rear == NULL)
         {
-            front = rear = temp;  // Assign the new node to both front and rear
+            front = rear = temp; // Assign the new node to both front and rear
             return;              // Exit the function
         }
 
         // If queue is not empty, link the new node at the end of the queue
-        rear->next = temp;  // Set the next of rear to the new node
+        rear->next = temp; // Set the next of rear to the new node
         rear = temp;       // Move the rear pointer to the new node
     }
 
@@ -74,14 +74,14 @@ int main()
 {
     Queue q; // Create an empty queue
 
-    q.enQueue(10);  // Enqueue 10 to the queue
+    q.enQueue(10); // Enqueue 10 to the queue
     q.enQueue(20); // Enqueue 20 to the queue
 
-    q.deQueue();  // Dequeue (remove) an element from the queue
+    q.deQueue(); // Dequeue (remove) an element from the queue
     q.deQueue(); // Dequeue another element from the queue
 
-    q.enQueue(30);   // Enqueue 30 to the queue
-    q.enQueue(40);  // Enqueue 40 to the queue
+    q.enQueue(30); // Enqueue 30 to the queue
+    q.enQueue(40); // Enqueue 40 to the queue
     q.enQueue(50); // Enqueue 50 to the queue
 
     q.deQueue(); // Dequeue an element from the queue
