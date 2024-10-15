@@ -1,3 +1,5 @@
+// AIM - WAP to implement insertion and deletion operations in a queue using linear array.
+
 #include <iostream>
 using namespace std;
 

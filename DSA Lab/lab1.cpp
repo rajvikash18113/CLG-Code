@@ -1,4 +1,4 @@
-/* Write a program to insert a new element at end as well as at a given position in an
+/* AIM - Write a program to insert a new element at end as well as at a given position in an
    array.*/
 
 #include <iostream>
