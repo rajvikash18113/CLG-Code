@@ -1,3 +1,5 @@
+// AIM: WAP TO DEMONSTRATE THE USE OF EXPLICIT CONSTRUCTOR.
+
 #include <iostream>
 using namespace std;
 class A
