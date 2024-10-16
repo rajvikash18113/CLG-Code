@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Compile and run",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "${file}",
+          "-o",
+          "${workspaceFolder}/jspwTest",
+          "&&",
+          "${workspaceFolder}/jspwTest",
+          "<",
+          "${workspaceFolder}/input.txt",
+          ">",
+          "${workspaceFolder}/output.txt"
+        ],
+        "presentation": {
+          "reveal": "always",
+          "panel": "shared"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": {
+          "owner": "cpp",
+          "fileLocation": [
+            "relative",
+            "${workspaceFolder}"
+          ],
+          "pattern": {
+            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+          }
+        }
+      }
+    ]
+  }
+  
