@@ -68,14 +68,17 @@ int main() {
     root->left->left = Insert(4);
     root->left->right = Insert(5);
 
-    cout << "\nPreorder traversal of binary tree is \n";
+    cout << "Preorder traversal of binary tree is " << endl;
     Preorder(root);
+    cout << endl;
 
-    cout << "\nInorder traversal of binary tree is \n";
+    cout << "Inorder traversal of binary tree is " << endl;
     Inorder(root);
+    cout << endl;
 
-    cout << "\nPostorder traversal of binary tree is \n";
+    cout << "Postorder traversal of binary tree is " << endl;
     Postorder(root);
+    cout << endl;
 
     return 0;
 }
