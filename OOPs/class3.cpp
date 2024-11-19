@@ -24,4 +24,3 @@ int main()
     d1.display();  
     return 0;
 }
-
