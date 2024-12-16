@@ -47,4 +47,6 @@ int main()
     ptr -> fun3();
     cout << endl;
     ptr -> fun4();
+
+    // done
 }
