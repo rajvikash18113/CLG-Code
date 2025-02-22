@@ -71,6 +71,5 @@ int main() {
 
     // Perform Topological Sort
     topologicalSortUtil();
-
     return 0;
 }
