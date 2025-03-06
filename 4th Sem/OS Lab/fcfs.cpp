@@ -1,9 +1,11 @@
+// first come first serve scheduling algorithm
+
 #include <iostream>
 #include <vector>
 using namespace std;
 int main()
 {
-    int n;
+    int n;                                                                                                                                                                                                  
     cout << "Enter the number of processes: ";
     cin >> n;
     // int arrivalTime[n], burstTime[n], completationTime[n], waitingTime[n], turnAroundTime[n];
@@ -31,7 +33,8 @@ int main()
     // Calculating completion time for remaining processes
     for (int i = 1; i < n; i++)
     {
-        if (arrivalTime[i] > completionTime[i - 1]) // If CPU is idle
+
+        if (arrivalTime[i] > completionTime[i - 1]) // If CPU is vacant for some time
         {
             completionTime[i] = arrivalTime[i] + burstTime[i];
         }
