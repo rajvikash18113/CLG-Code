@@ -46,6 +46,7 @@ void topologicalSortUtil() {
     }
 
     // Print the topological order by popping from stack
+        
     cout << "Topological Order: ";
     while (top != -1) {
         cout << pop() << " ";
