@@ -45,7 +45,6 @@ int main() {
         }
         
     }
-
     
     cout << "Maximum profit: " << total_profit << endl;
 
