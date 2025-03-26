@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    int n;                                                                                                                                                                                                  
+    int n;
     cout << "Enter the number of processes: ";
     cin >> n;
     // int arrivalTime[n], burstTime[n], completationTime[n], waitingTime[n], turnAroundTime[n];
