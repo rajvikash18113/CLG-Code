@@ -1,8 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class Animal
 {
-    public:
+public:
     Animal()
     {
         cout << "Animal Class Constructor Called" << endl;
@@ -15,7 +15,7 @@ class Animal
 
 class Dog : public Animal
 {
-    public:
+public:
     Dog()
     {
         cout << "Dog class Constructor Called" << endl;
