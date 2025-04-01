@@ -1,4 +1,4 @@
-// first come first serve scheduling algorithm
+// (FCFS)first come first serve scheduling algorithm
 
 #include <iostream>
 #include <vector>
