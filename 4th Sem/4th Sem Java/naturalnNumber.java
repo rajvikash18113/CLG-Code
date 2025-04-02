@@ -6,6 +6,9 @@ public class naturalnNumber {
         //     System.out.println(i);
         // }
 
+
+
+        
         int i = 0;
         while(i <= 100)
         {
