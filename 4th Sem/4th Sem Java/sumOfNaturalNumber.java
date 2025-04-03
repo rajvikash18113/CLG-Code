@@ -6,6 +6,8 @@ public class sumOfNaturalNumber {
         int n = sc.nextInt();
         int sum = 0;
 
+
+        
         // sum of natural number
         for(int i = 0; i <= n; i++)
         {
