@@ -14,6 +14,8 @@ void push(int v) {
     Stack[++top] = v;
 }
 
+
+
 // Pop from stack
 int pop() {
     return Stack[top--];
