@@ -9,6 +9,8 @@ struct Item
 };
 void KnapSack(int capacity, int n, Item items[])
 {
+
+    
     int matrix[n + 1][capacity + 1];
     for (int i = 0; i <= n; i++)
     {
