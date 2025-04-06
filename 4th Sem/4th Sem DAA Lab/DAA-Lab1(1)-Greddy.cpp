@@ -1,4 +1,5 @@
-// DAA Lab - 1 : Knap Sack using greedy approach
+// DAA Lab - 1 : Knap Sack using greedy approach.
+
 
 #include <bits/stdc++.h>
 using namespace std;
