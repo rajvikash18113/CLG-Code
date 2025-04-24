@@ -10,3 +10,4 @@ public class StringHandling2 {
         System.out.println(s2.equals(s3));
     }
 }
+
